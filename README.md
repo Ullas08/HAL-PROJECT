@@ -7,7 +7,7 @@ An end-to-end Machine Learning pipeline that ingests aircraft sensor telemetry, 
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 aircraft-fault-detection/
@@ -76,7 +76,7 @@ Open http://localhost:8501 in your browser.
 
 ---
 
-## 🌐 Using NASA C-MAPSS Dataset (Primary)
+##  Using NASA C-MAPSS Dataset (Primary)
 
 1. Download from: https://www.nasa.gov/content/prognostics-center-of-excellence-data-set-repository
 2. Extract `CMAPSSData.zip` and copy `train_FD001.txt` to `data/raw/`
@@ -87,7 +87,7 @@ Open http://localhost:8501 in your browser.
 
 ---
 
-## 🤖 ML Algorithms
+##  ML Algorithms
 
 | Algorithm | Key Hyperparameters Tuned |
 |---|---|
@@ -102,7 +102,7 @@ All models tuned with `GridSearchCV(scoring='f1', cv=5, n_jobs=-1)`.
 
 ---
 
-## ✅ Running Tests
+## Running Tests
 
 ```bash
 pytest tests/ -v
@@ -112,7 +112,7 @@ Expected: **100% pass rate** across 3 test modules (preprocessing, training, app
 
 ---
 
-## 🎯 Success KPIs
+##  Success KPIs
 
 | Metric | Target |
 |---|---|
@@ -125,7 +125,7 @@ Expected: **100% pass rate** across 3 test modules (preprocessing, training, app
 
 ---
 
-## 📊 Deliverables
+##  Deliverables
 
 | # | Deliverable | Location |
 |---|---|---|
@@ -141,7 +141,7 @@ Expected: **100% pass rate** across 3 test modules (preprocessing, training, app
 
 ---
 
-## 📚 References
+## References
 
 1. Saxena, A. et al. (2008). *Damage Propagation Modeling for Aircraft Engine Run-to-Failure Simulation.* IEEE PHM Conference.
 2. Jardine, A. K. et al. (2006). *A review on machinery diagnostics and prognostics.* Mechanical Systems and Signal Processing, 20(7).
