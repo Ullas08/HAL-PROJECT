@@ -35,7 +35,7 @@ aircraft-fault-detection/
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### 1. Create & activate a virtual environment
 
