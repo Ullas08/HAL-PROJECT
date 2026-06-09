@@ -1,7 +1,7 @@
 # Aircraft Equipment Fault Detection
 
 > **HAL – Helicopter Division** | B.Tech CSE, 6th Sem | Academic Year 2026–27  
-> Student: Ullas.T &nbsp;|&nbsp; Guide: Jagadeesh.G &nbsp;|&nbsp; Developed for Antigravity
+> Student: Ullas.T &nbsp;|&nbsp; Guide: Jagadesh.G &nbsp;|&nbsp; Developed for Antigravity
 
 An end-to-end Machine Learning pipeline that ingests aircraft sensor telemetry, trains **six classification algorithms**, selects the best model (target F1 ≥ 0.90), and surfaces predictions through an interactive **Streamlit dashboard**.
 
