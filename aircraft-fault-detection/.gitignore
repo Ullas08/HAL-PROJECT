@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files — do NOT commit raw datasets > 50MB
+data/raw/*.txt
+data/raw/*.zip
+data/raw/*.csv
+
+# Processed data (generated — reproducible)
+data/processed/
+
+# Trained models (regenerate with run_pipeline.py)
+models/*.pkl
+
+# Reports / generated outputs
+reports/*.png
+reports/*.pdf
+
+# IDE / OS
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Logs
+*.log

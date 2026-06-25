@@ -1,0 +1,6 @@
+# Ignore archive files
+*.zip
+
+# Ignore documentation drafts / temporary files
+*.docx
+docx_content.txt
