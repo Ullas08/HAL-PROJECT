@@ -854,11 +854,11 @@ if uploaded_file is not None:
             styled_results = (
                 results_df[display_cols]
                 .style
-                .applymap(colour_prediction, subset=["Prediction"])
-                .applymap(colour_fault_prob, subset=["Fault Prob %"])
+                .map(colour_prediction, subset=["Prediction"])
+                .map(colour_fault_prob, subset=["Fault Prob %"])
             )
             if "Actual" in results_df.columns:
-                styled_results = styled_results.applymap(colour_prediction, subset=["Actual"])
+                styled_results = styled_results.map(colour_prediction, subset=["Actual"])
 
             st.dataframe(styled_results, use_container_width=True, hide_index=False, height=380)
 
