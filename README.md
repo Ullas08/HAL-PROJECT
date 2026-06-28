@@ -125,6 +125,11 @@ Expected: **100% pass rate** across 3 test modules (preprocessing, training, app
 
 ---
 
+---
+
+##  Live Demo 
+https://hal-project-ullast.streamlit.app/
+
 ##  Deliverables
 
 | # | Deliverable | Location |
